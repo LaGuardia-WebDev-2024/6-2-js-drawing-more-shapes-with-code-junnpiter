@@ -7,14 +7,27 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255,);
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+  //ground
+  rect(-10, 270, 450, 150)
+
+  //snowman
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
-  
+
+//arm
+line(251, 188, 299, 140)
+line(299, 140, 290, 112)
+line(299, 140, 317, 111)
+line(299, 140, 323, 128)
+
+//face
+point(179, 113)
+point(218, 113)
 
 }
 
